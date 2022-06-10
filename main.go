@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import "github.com/testing-dependabot-go/something"
 
 func main() {
-	fmt.Println("Do you love CS? Obession always beats out talent")
-	fmt.Println("Do you love CS? Obession always beats out talent")
+	hWorld := something.HelloWorld{
+		Msg: "I saw you dancing in a crowded room",
+	}
+	hWorld.Greet()
 }
